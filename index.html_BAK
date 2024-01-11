@@ -1,0 +1,9 @@
+<html>
+<head><title>Dannes testsida för skrivare</title></head>
+<body>
+<form action="cuser.php" method="post">
+Username: <input type="text" name="uname"><br>
+Password: <input type="password" name="pass"><br>
+<input type="submit" value="Submit Account">
+</body>
+</html> 
