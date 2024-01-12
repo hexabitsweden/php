@@ -1,7 +1,5 @@
 <html>
 <body>
-<div style="background-color:black;color:green;padding:2%;">
-
 <?php 
 
 #if(!isset($_POST['uname']) || !isset($_POST['pass'])){  //Redirect somewhere } 
@@ -17,6 +15,5 @@ $output = shell_exec('ls -lart');
 echo "<pre>$output</pre>";
 
 fclose($fopen);
+
 ?>  
-</div>
-</body>
